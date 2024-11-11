@@ -1,4 +1,4 @@
-To help a fellow deviant, I've put together a download that anyone with Gimp 3.10 on Linux can use to make their copy of Gimp look more like Adobe Photoshop and make people more comfortable.
+To help a fellow deviant, I've put together a download that anyone with Gimp 3.0 on Linux can use to make their copy of Gimp look more like Adobe Photoshop and make people more comfortable.
 
 I've taken various bits of guides online and various tweaks.
 All you have to do is download the file, unzip it.
