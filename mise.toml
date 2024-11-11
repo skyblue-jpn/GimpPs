@@ -8,6 +8,11 @@
     alias = "regen"
     run   = "git clone -b develop https://github.com/skyblue-jpn/GimpPs.git $HOME/.config/GIMP/3.0"
 
+[tasks.regenerate_config_master]
+
+    alias = "regen-master"
+    run   = "git clone -b master https://github.com/skyblue-jpn/GimpPs.git $HOME/.config/GIMP/3.0"
+
 [tasks.clean_config]
 
     alias = "clean"
