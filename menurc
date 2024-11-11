@@ -8,7 +8,7 @@
 ; http://epierce.freeshell.org/gimp/gimp_ps.php
 ;
 (gtk_accel_path "<Actions>/view/view-shrink-wrap" "")
-(gtk_accel_path "<Actions>/plug-in/plug_in_iwarp" "<Primary><Shift>x")
+(gtk_accel_path "<Actions>/plug-in/plug_in_warp" "<Primary><Shift>x")
 (gtk_accel_path "<Actions>/layers/layers-duplicate" "<Primary>j")
 (gtk_accel_path "<Actions>/plug-in/plug_in_c_astretch" "<Primary><Shift><Alt>l")
 (gtk_accel_path "<Actions>/context/context-brush-select-next" "period")
