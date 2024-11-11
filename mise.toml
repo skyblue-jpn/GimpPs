@@ -2,3 +2,18 @@
 
     alias = "up"
     run   = "git -C $HOME/.config/GIMP/3.0 pull origin develop"
+
+[tasks.regenerate_config]
+
+    alias = "regen"
+    run   = "git clone -b develop https://github.com/skyblue-jpn/GimpPs.git $HOME/.config/GIMP/3.0"
+
+[tasks.clean_config]
+
+    alias = "clean"
+    run   = "rm -rf $HOME/.config/GIMP/3.0"
+
+[tasks.reset_config]
+
+    alias = "reset"
+    run   = "mkdir $HOME/.config/GIMP/3.0"
