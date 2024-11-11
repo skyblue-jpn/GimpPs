@@ -4,7 +4,7 @@ main() {
   # Use colors, but only if connected to a terminal, and that terminal
   # supports them.
   if which tput >/dev/null 2>&1; then
-      ncolors=$(tput colors)
+    ncolors=$(tput colors)
   fi
   if [ -t 1 ] && [ -n "$ncolors" ] && [ "$ncolors" -ge 8 ]; then
     RED="$(tput setaf 1)"
@@ -31,7 +31,7 @@ main() {
     exit 1
   fi
 
-  version='2.10'
+  version='3.0'
   gimp_path_version_string=$($gimp_path --version)
   if echo "$gimp_path_version_string" | grep -qvF "$version"; then
     printf "${YELLOW}Gimp version is not installed!${NORMAL} Please install Gimp $version first!\n"
