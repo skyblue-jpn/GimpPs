@@ -1,0 +1,4 @@
+[tasks.update_config]
+
+    alias = "up"
+    run   = "git -C $HOME/.config/GIMP/3.0 pull origin develop"
